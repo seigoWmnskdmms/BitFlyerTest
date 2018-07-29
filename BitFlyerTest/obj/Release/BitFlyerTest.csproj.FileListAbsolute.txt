@@ -1,0 +1,9 @@
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\bin\Release\BitFlyerTest.exe.config
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\bin\Release\BitFlyerTest.exe
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\bin\Release\BitFlyerTest.pdb
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\bin\Release\Newtonsoft.Json.dll
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\obj\Release\BitFlyerTest.csprojAssemblyReference.cache
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\obj\Release\BitFlyerTest.csproj.CoreCompileInputs.cache
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\obj\Release\BitFlyerTest.csproj.CopyComplete
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\obj\Release\BitFlyerTest.exe
+C:\Users\seigo\source\repos\BitFlyerTest\BitFlyerTest\obj\Release\BitFlyerTest.pdb

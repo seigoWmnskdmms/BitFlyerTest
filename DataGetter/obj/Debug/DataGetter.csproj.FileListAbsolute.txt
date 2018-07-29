@@ -1,0 +1,6 @@
+C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\bin\Debug\DataGetter.exe.config
+C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\bin\Debug\DataGetter.exe
+C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\bin\Debug\DataGetter.pdb
+C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\obj\Debug\DataGetter.csproj.CoreCompileInputs.cache
+C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\obj\Debug\DataGetter.exe
+C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\obj\Debug\DataGetter.pdb
