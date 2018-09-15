@@ -85,9 +85,9 @@ namespace DataEditor
             var match = regex.Match(timeStamp);
             var day = int.Parse(match.Groups["day"].Value);
             var hour = int.Parse(match.Groups["hour"].Value);
-            if (hour + 9 >= 24)
+            if (hour + 9 > 23)
             {
-                hour = hour + 9 - 24;
+                hour = hour + 9 - 23;
                 day += 1;
             }
             else

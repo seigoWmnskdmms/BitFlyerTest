@@ -6,6 +6,7 @@ using System.Threading;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using System.IO;
+using System.Diagnostics;
 
 class BitFlyerTest
 {
@@ -14,7 +15,8 @@ class BitFlyerTest
     public static void Main()
     {
         AutoResetEvent autoEvent = new AutoResetEvent(false);
-        
+        var process = Process.GetCurrentProcess();
+        process.ProcessorAffinity = (IntPtr)1;
         var timerDeleg = new TimerCallback(DoGetting);
         Console.WriteLine("{0} Timer start.\n",
             DateTime.Now.ToString("h:mm:ss.fff"));
@@ -44,18 +46,26 @@ class BitFlyerTest
             client.BaseAddress = endpointUri;
             var message = await client.SendAsync(request);
             var response = await message.Content.ReadAsStringAsync();
-            var parsedResponse = JsonConvert.DeserializeObject(response);
-            parsedResponse = JsonConvert.SerializeObject(parsedResponse, Formatting.Indented);
-
-            var now = DateTime.Now;
-            var time = now.ToString("yyyyMMdd-HHmmss"); //"yyyyMMdd-HHmm-ss-ff"
-            var timeForDir = now.ToString("yyyyMMdd");
-            string dirName = Path.Combine(@"C:\Users\seigo\Desktop\Programing Test\BTCData", timeForDir);
-            var fileName = "test" + time + ".json";
-            File.WriteAllText(Path.Combine(dirName, fileName), parsedResponse.ToString());
-            //File.WriteAllText(@"C:\Users\seigo\Desktop\Programing Test\BitFlyerTest\test02.json", parsedResponse.ToString());
+            if (response != null)
+            {
+                var parsedResponse = JsonConvert.DeserializeObject(response);
+                parsedResponse = JsonConvert.SerializeObject(parsedResponse, Formatting.Indented);
+                var now = DateTime.Now;
+                var time = now.ToString("yyyyMMdd-HHmmss"); //"yyyyMMdd-HHmm-ss-ff"
+                var timeForDir = now.ToString("yyyyMMdd");
+                string dirName = Path.Combine(@"C:\Users\seigo\Desktop\Programing Test\BTCData", timeForDir);
+                var fileName = "test" + time + ".json";
+                var sw = new StreamWriter(Path.Combine(dirName, fileName));
+                sw.WriteLine(parsedResponse.ToString());
+                sw.Close();
+                Console.WriteLine("success at " + time + ".");
+                //File.WriteAllText(@"C:\Users\seigo\Desktop\Programing Test\BitFlyerTest\test02.json", parsedResponse.ToString());
+            }
+            else
+                Console.WriteLine("error: " + response);
             
         }
+        GC.Collect();
     }
 
     public static void DoGetting(object stateInfo)
@@ -63,10 +73,12 @@ class BitFlyerTest
         AutoResetEvent autoEvent = (AutoResetEvent)stateInfo;
 
         //ここに一定時間で実行したい処理を書く
-        Console.WriteLine("{0} Checking status {0}.",
+        Console.WriteLine("{0} Start GetTick {0}.",
                DateTime.Now.ToString("h:mm:ss.fff"));
         var task = GetTick();
-        Thread.Sleep(50);
+        Console.WriteLine("{0} End GetTick {0}.",
+               DateTime.Now.ToString("h:mm:ss.fff"));
+        Thread.Sleep(50000);
         while (true) ;
     }
 }
