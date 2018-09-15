@@ -7,3 +7,12 @@ C:\Users\seigo\source\repos\BitFlyerTest\DataEditor\obj\Release\DataEditor.exe
 C:\Users\seigo\source\repos\BitFlyerTest\DataEditor\obj\Release\DataEditor.pdb
 C:\Users\seigo\source\repos\BitFlyerTest\DataEditor\bin\Release\Newtonsoft.Json.dll
 C:\Users\seigo\source\repos\BitFlyerTest\DataEditor\obj\Release\DataEditor.csproj.CopyComplete
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\bin\Release\DataEditor.exe.config
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\bin\Release\DataEditor.exe
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\bin\Release\DataEditor.pdb
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\bin\Release\Newtonsoft.Json.dll
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\obj\Release\DataEditor.csprojAssemblyReference.cache
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\obj\Release\DataEditor.csproj.CoreCompileInputs.cache
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\obj\Release\DataEditor.csproj.CopyComplete
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\obj\Release\DataEditor.exe
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\DataEditor\obj\Release\DataEditor.pdb

@@ -5,3 +5,10 @@ C:\Users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Release\TimerTest.csprojA
 C:\Users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Release\TimerTest.csproj.CoreCompileInputs.cache
 C:\Users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Release\TimerTest.exe
 C:\Users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Release\TimerTest.pdb
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\bin\Release\TimerTest.exe.config
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\bin\Release\TimerTest.exe
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\bin\Release\TimerTest.pdb
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\obj\Release\TimerTest.csprojAssemblyReference.cache
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\obj\Release\TimerTest.csproj.CoreCompileInputs.cache
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\obj\Release\TimerTest.exe
+C:\Users\seigo\Documents\GitHub\BitFlyerTest\TimerTest\obj\Release\TimerTest.pdb
