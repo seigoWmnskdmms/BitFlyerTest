@@ -1,6 +1,0 @@
-C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\bin\Release\DataGetter.exe.config
-C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\bin\Release\DataGetter.exe
-C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\bin\Release\DataGetter.pdb
-C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\obj\Release\DataGetter.csproj.CoreCompileInputs.cache
-C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\obj\Release\DataGetter.exe
-C:\Users\seigo\source\repos\BitFlyerTest\DataGetter\obj\Release\DataGetter.pdb

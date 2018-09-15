@@ -1,7 +1,0 @@
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\bin\Debug\TimerTest.exe.config
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\bin\Debug\TimerTest.exe
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\bin\Debug\TimerTest.pdb
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Debug\TimerTest.csproj.CoreCompileInputs.cache
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Debug\TimerTest.exe
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Debug\TimerTest.pdb
-c:\users\seigo\source\repos\BitFlyerTest\TimerTest\obj\Debug\TimerTest.csprojAssemblyReference.cache
